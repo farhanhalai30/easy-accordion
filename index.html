@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Easy Accordion Demo</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="demo.css" />
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <div class="heading-wrap">
+        <h1 class="heading">Easy Accordion</h1>
+        <h4 class="sub-title">A Pure JS Accordion</h4>
+      </div>
+
+      <ul class="menu-wrap">
+        <li><a href="#setup">Setup</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#usage">Options</a></li>
+        <li><a href="#examples">Examples</a></li>
+      </ul>
+
+      <div id="setup" class="setup block-wrap">
+        <div class="container">
+          <h2 class="block-heading">Setup</h2>
+          <div class="desc">
+            So, to start using the <span>Easy Accordion</span> plugin in your
+            project, you can include the script in your head/body section as
+            shown below.
+          </div>
+          <code>
+            &lt;script src="./js/easy-accordion-v4.js"&gt;&lt;/script&gt;
+          </code>
+        </div>
+      </div>
+
+      <div id="usage" class="usage block-wrap">
+        <div class="container">
+          <h2 class="block-heading">Usage</h2>
+          <div class="desc">
+            Once you have included the script in your code, you can start using
+            Easy Accordion as shown in the code below. For more list of options
+            <a href="#options">refer here</a>
+          </div>
+          <code>
+            &lt;script&gt; <br />
+            &nbsp;&nbsp;var e_acc_obj = new EasyAccordion({ <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;target: "my-accordion",<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;transitionDuration: 0.3,<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;blockClass: "block",<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;triggerClass: "title",<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;contentClass: "content",<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;triggerActiveClass: "active-title",<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;contentActiveClass: "active-content"<br />
+            &nbsp;&nbsp;});<br />
+            &lt;/script&gt;
+          </code>
+        </div>
+      </div>
+
+      <div id="options" class="options block-wrap">
+        <div class="container">
+          <h2 class="block-heading">Options</h2>
+          <ul class="options-list">
+            <li>
+              target
+            </li>
+            <li>
+              blockClass
+            </li>
+            <li>
+              triggerClass
+            </li>
+            <li>
+              contentClass
+            </li>
+            <li>
+              transitionDuration
+            </li>
+            <li>
+              triggerActiveClass
+            </li>
+            <li>
+              contentActiveClass
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
