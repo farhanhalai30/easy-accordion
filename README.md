@@ -73,8 +73,8 @@ Below is the list of options available.
 
 - Basic Example  
   A basic demo of using <b>Easy Accordion</b> for the first time.  
-  [Click here](/examples/basic-example.html) check out in action</div>
+  [Click here](https://farhanhalai30.github.io/easy-accordion/examples/basic-example) check out in action</div>
 
 - Custom Active Classes  
   Using custom active classes for trigger & content elements. Classes get added when the accordion is in active state.  
-  [Click here](/examples/custom-active-classes.html) check out in action</div>
+  [Click here](https://farhanhalai30.github.io/easy-accordion/examples/custom-active-classes) check out in action</div>
