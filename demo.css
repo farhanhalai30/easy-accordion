@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
 }
 a {
@@ -82,4 +82,21 @@ a {
   padding: 10px;
   border: 1px solid #ddd;
   text-align: left;
+}
+
+.examples-list {
+  list-style-type: none;
+}
+.examples-list li {
+  margin-bottom: 20px;
+}
+.examples-list h3 {
+  font-size: 18px;
+}
+.examples-list a {
+  color: blue;
+  text-decoration: underline;
+}
+.examples-list a:hover {
+  text-decoration: none;
 }
