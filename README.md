@@ -78,3 +78,7 @@ Below is the list of options available.
 - Custom Active Classes  
   Using custom active classes for trigger & content elements. Classes get added when the accordion is in active state.  
   [Click here](https://farhanhalai30.github.io/easy-accordion/examples/custom-active-classes) check out in action</div>
+
+## Browser Support
+
+All browsers (Chrome, Mozilla, Safari) & in Internet Explorer upto IE9.
