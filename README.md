@@ -7,7 +7,7 @@ Accordion plugin written purely in JavaScript.
 So, to start using the <b>Easy Accordion</b> plugin in your project, you can include the script in your head/body section as shown below.
 
 ```
-<script src=""/js/easy-accordion.min.js>
+<script src="https://cdn.jsdelivr.net/gh/farhanhalai30/easy-accordion/js/easy-accordion.min.js">
 ```
 
 ## Usage
