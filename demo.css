@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -71,6 +72,14 @@ a {
   border-radius: 4px;
 }
 
-.options-list {
-  list-style-type: none;
+.options-table {
+  width: 100%;
+  border-spacing: 0;
+  font-size: 15px;
+}
+.options-table th,
+.options-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
 }

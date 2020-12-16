@@ -67,29 +67,56 @@
       <div id="options" class="options block-wrap">
         <div class="container">
           <h2 class="block-heading">Options</h2>
-          <ul class="options-list">
-            <li>
-              target
-            </li>
-            <li>
-              blockClass
-            </li>
-            <li>
-              triggerClass
-            </li>
-            <li>
-              contentClass
-            </li>
-            <li>
-              transitionDuration
-            </li>
-            <li>
-              triggerActiveClass
-            </li>
-            <li>
-              contentActiveClass
-            </li>
-          </ul>
+          <table class="options-table">
+            <tr>
+              <th>Option</th>
+              <th>Description</th>
+              <th>Type</th>
+              <th>Optional/Mandatory</th>
+            </tr>
+            <tr>
+              <td>target</td>
+              <td>Selector name of the target element.</td>
+              <td>String</td>
+              <td>Mandatory</td>
+            </tr>
+            <tr>
+              <td>blockClass</td>
+              <td>Class name for the block element</td>
+              <td>String</td>
+              <td>Mandatory</td>
+            </tr>
+            <tr>
+              <td>triggerClass</td>
+              <td>Class name for the trigger element (the one which is clickable).</td>
+              <td>String</td>
+              <td>Mandatory</td>
+            </tr>
+            <tr>
+              <td>contentClass</td>
+              <td>Class name for the content.</td>
+              <td>String</td>
+              <td>Mandatory</td>
+            </tr>
+            <tr>
+              <td>transitionDuration</td>
+              <td>Amount of time to transite (in seconds).</td>
+              <td>Number</td>
+              <td>Optional</td>
+            </tr>
+            <tr>
+              <td>triggerActiveClass</td>
+              <td>Class name for the trigger element in the active state (active means accordion is open).</td>
+              <td>String</td>
+              <td>Optional</td>
+            </tr>
+            <tr>
+              <td>contentActiveClass</td>
+              <td>Class name for the trigger element in the active state.</td>
+              <td>String</td>
+              <td>Optional</td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
